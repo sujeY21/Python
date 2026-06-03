@@ -1,0 +1,17 @@
+U,D=map(int,input().split())
+u200=(100*2)+(4*(U-100))
+u_300=(100*2)+(100*4)+((U-200)*6)
+if(D<10):
+    if(U<=100):
+        print(int(U*2))
+    elif(U<=200):
+        print(int(u200))
+    else:
+        print(int(u_300))
+else:
+    if(U<=100):
+        print(int((U*2)+((U*2)*0.05)))
+    elif(U<=200):
+        print(int(u200+(u200*0.05)))
+    else:
+        print(int(u_300+(u_300*0.05)))
