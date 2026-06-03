@@ -1,0 +1,1 @@
+print("MECON \nStadium")
