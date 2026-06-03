@@ -1,0 +1,7 @@
+no_ball=int(input())
+wide=int(input())
+byes=int(input())
+leg_byes=int(input())
+penalty=int(input())
+extras=no_ball+wide+byes+leg_byes+(penalty*5)
+print(extras)

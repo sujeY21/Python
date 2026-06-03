@@ -1,0 +1,10 @@
+a=int(input())
+l=int(input())
+b=int(input())
+r=float(input())
+square_area=a**2
+rect_area=l*b
+circle_area=3.14*(r**2)
+print(int(square_area))
+print(int(rect_area))
+print("%.2f"%circle_area)
